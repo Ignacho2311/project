@@ -320,6 +320,14 @@
           }
         ],
         "lineageTag": "67d47721-c9ab-43f5-a96b-737539d0abd0",
+        "measures": [
+          {
+            "name": "Suma Sale Price",
+            "expression": "SUM(financials[Sale Price])",
+            "formatString": "0",
+            "lineageTag": "a87fce2a-5acb-4a5d-b500-cf6a18751c32"
+          }
+        ],
         "partitions": [
           {
             "name": "financials",
