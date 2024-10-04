@@ -1,0 +1,42 @@
+{
+  "config": "{\"version\":\"5.57\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU08\",\"version\":\"5.58\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU08",
+            "path": "BaseThemes/CY24SU08.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Página 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ce8710bcb37ee8ccc2d6",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"8b938d70b20bc7ad27e7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.605521030503024,\"y\":0,\"z\":0,\"width\":393.826362250624,\"height\":336.1932360676058,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"financials.Product\"},{\"queryRef\":\"Sum(financials. Sales)\"},{\"queryRef\":\"financials.Country\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"financials\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Product\"},\"Name\":\"financials.Product\",\"NativeReferenceName\":\"Product\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\" Sales\"}},\"Function\":0},\"Name\":\"Sum(financials. Sales)\",\"NativeReferenceName\":\"Suma de  Sales\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Country\"},\"Name\":\"financials.Country\",\"NativeReferenceName\":\"Country\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 336.19,
+          "width": 393.83,
+          "x": 9.61,
+          "y": 0.00,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}

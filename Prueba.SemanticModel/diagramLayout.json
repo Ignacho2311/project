@@ -1,0 +1,48 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "nodeIndex": "financials",
+          "nodeLineageTag": "67d47721-c9ab-43f5-a96b-737539d0abd0",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 284,
+            "y": 0
+          },
+          "nodeIndex": "Sheet1",
+          "nodeLineageTag": "9fce081f-3231-440f-863c-0385c4313c35",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "Todas las tablas",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Todas las tablas",
+  "defaultDiagram": "Todas las tablas"
+}
