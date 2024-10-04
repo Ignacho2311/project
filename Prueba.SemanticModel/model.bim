@@ -323,7 +323,7 @@
         "measures": [
           {
             "name": "Suma Sale Price",
-            "expression": "SUM(financials[Sale Price])",
+            "expression": "SUM(financials[Sale Price])*2",
             "formatString": "0",
             "lineageTag": "a87fce2a-5acb-4a5d-b500-cf6a18751c32"
           }
